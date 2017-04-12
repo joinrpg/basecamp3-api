@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    @using (Html.BeginForm("StartAuth", "Home"))
+    {
+      <input type="submit" class="btn btn-success" value="Login to BC3"/>
+    }
+</div>

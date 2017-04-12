@@ -1,0 +1,18 @@
+﻿@using Tsarev.Basecamp3.ApiProxy
+@{
+    ViewBag.Title = "Menu";
+}
+<h2>@ViewBag.Title.</h2>
+<p>@ViewBag.Message</p>
+
+<p>
+    @ViewBag.Account.SiteHref
+    <ul>
+        @foreach (BasecampProject project in ViewBag.Projects)
+        {
+          <li>
+              <a href="@project.VisibleUri">@project.Name</a>
+          </li>
+        }
+    </ul>
+</p>

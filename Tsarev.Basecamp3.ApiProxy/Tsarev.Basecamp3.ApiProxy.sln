@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsarev.Basecamp3.ApiProxy", "Tsarev.Basecamp3.ApiProxy.csproj", "{23C11EC9-5946-467D-A992-D8417D603BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsarev.Basecamp3.ApiProxy.WebTest", "..\Tsarev.Basecamp3.ApiProxy.WebTest\Tsarev.Basecamp3.ApiProxy.WebTest.csproj", "{E94F682C-6B85-4E51-A7FA-484472A73DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23C11EC9-5946-467D-A992-D8417D603BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C11EC9-5946-467D-A992-D8417D603BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C11EC9-5946-467D-A992-D8417D603BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C11EC9-5946-467D-A992-D8417D603BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94F682C-6B85-4E51-A7FA-484472A73DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94F682C-6B85-4E51-A7FA-484472A73DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94F682C-6B85-4E51-A7FA-484472A73DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94F682C-6B85-4E51-A7FA-484472A73DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

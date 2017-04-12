@@ -1,0 +1,13 @@
+﻿@using Tsarev.Basecamp3.ApiProxy
+@{
+    ViewBag.Title = "Basecamps";
+}
+<h2>@ViewBag.Title.</h2>
+<p>@ViewBag.Message</p>
+
+<ul>
+    @foreach (BasecampAccount account in ViewBag.Accounts)
+    {
+    <li> @Html.ActionLink(account.Name, "Account", "Home", new { AccountId = account.Id }, null);</li>
+    }
+</ul>
