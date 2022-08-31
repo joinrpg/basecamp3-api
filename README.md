@@ -1,2 +1,2 @@
 # basecamp3-api
-Wrapper for using Basecamp3 API
+Draft of wrapper for using Basecamp3 API. Never gain traction
